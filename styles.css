@@ -1,0 +1,28 @@
+body {
+    background-color: #1d2125; /* Slate background */
+    color: #ecf0f1;
+}
+
+.card {
+    margin: 15px;
+    background-color: #212427; /* Same slate background */
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+#app-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 0 0 25%; /* 4 cards per row */
+    max-width: 25%;
+}

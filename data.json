@@ -1,0 +1,40 @@
+{
+    "apps": [
+        {
+            "id": 1,
+            "name": "Jellyfin",
+            "port": "8096",
+            "icon": "icons/jellyfin.svg"
+        },
+        {
+            "id": 2,
+            "name": "Radarr",
+            "port": "7878",
+            "icon": "icons/radarr.svg"
+        },
+        {
+            "id": 3,
+            "name": "Sonarr",
+            "port": "8989",
+            "icon": "icons/sonarr.svg"
+        },
+        {
+            "id": 4,
+            "name": "Prowlarr",
+            "port": "9696",
+            "icon": "icons/prowlarr.svg"
+        },
+        {
+            "id": 5,
+            "name": "homebox",
+            "port": "3100/home",
+            "icon": "icons/homebox.svg"
+        },
+        {
+            "id": 6,
+            "name": "ActivityWatch",
+            "port": "5600/#/home",
+            "icon": "icons/activitywatch.svg"
+        }
+    ]
+}
